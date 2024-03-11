@@ -112,6 +112,6 @@ TCP 담당 부분은 TCP 헤더를 토대로 데이터가 잘려있는 패킷들
 
 
 #### Ref
-[성공과 실패를 결정하는 1%의 네트워크 원리], 성안당
-https://maxkim-j.github.io/posts/packet-travel
-https://www.youtube.com/watch?v=GAyZ_QgYYYo
+[성공과 실패를 결정하는 1%의 네트워크 원리], 성안당 <br>
+https://maxkim-j.github.io/posts/packet-travel <br>
+https://www.youtube.com/watch?v=GAyZ_QgYYYo <br>
