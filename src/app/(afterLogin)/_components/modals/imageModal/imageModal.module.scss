@@ -1,0 +1,72 @@
+.modalBackground {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal {
+  background-color: #fff;
+  position: relative;
+  top: 5%;
+  max-width: 80vw;
+  min-width: 600px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.modalHeader {
+  padding: 36px 80px 20px;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.closeButton {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeButton:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}

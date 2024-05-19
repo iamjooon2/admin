@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  padding-left: 10%;
+}
+
+.headerNav {
+  width: 100%;
+  height: 100%;
+}
+
+.headerUl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  padding-left: 0;
+}
+
+.alarmLi {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+
+.aside {
+  width: 10%;
+  padding-top: 50px;
+}
+
+.main {
+  width: 90%;
+}
+
+.li {
+  list-style: none;
+  width: 10%;
+}
